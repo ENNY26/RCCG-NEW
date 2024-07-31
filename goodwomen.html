@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <title>Good Women</title>
+    <script src="goodwomen.js" defer></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>ST KIDS</title>
+    <link rel="stylesheet" href="goodwomen.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
 
     <header>
         <div class="logo"><a href="index.html">STRONG TOWER</a></div>
@@ -17,10 +18,9 @@
             <span></span>
         </div>
     </header>
-
     <nav>
         <ul>
-            <a href="index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li class="dropdown">Ministries
                 <ul class="dropdown-menu">
                     <a href="youth.html">YOUTH</a>
@@ -45,77 +45,68 @@
             <li>Giving</li>
         </ul>
     </nav>
+    <body>
 
-
-
-    <section class="hero-children">
+    <!-- Hero Section -->
+    <section class="hero-good-women" id="good-women">
         <div class="hero-content">
-            <h1>Welcome to Our Children's Ministry</h1>
-            <p>Nurturing Young Hearts with Love and Faith</p>
-            <a href="#children-gallery" class="hero-button">Explore More</a>
+            <h1>Good Women</h1>
+            <p>Empowering women to serve and lead</p>
+            <a href="#about" class="hero-button">Learn More</a>
         </div>
     </section>
 
-
-    <section id="children-gallery" class="children-gallery">
-        <div class="gallery-header">
-            <h2>Children's Gallery</h2>
-            <p>Memorable Moments from Our Activities</p>
+    <!-- About Us Section -->
+    <section id="about" class="about-good-women">
+        <div class="about-content">
+            <img src="goodwomenimg/gwimg5.jpg" alt="Good Women">
+            <div class="about-text">
+                <h2>About Good Women</h2>
+                <p>Good Women is a group dedicated to empowering women in our church to serve and lead in various capacities. We focus on spiritual growth, community service, and supporting one another through life's challenges.</p>
+            </div>
         </div>
+    </section>
+
+    <!-- Leader Section -->
+    <section class="leader-good-women">
+        <div class="leader-content">
+            <img src="goodwomenimg/gwleader.jpg" alt="Leader">
+            <div class="leader-text">
+                <h2>Our Leader</h2>
+                <p>Meet our leader, Jane Doe, who has been instrumental in guiding and inspiring the women of our church. Her dedication and vision have helped shape the Good Women group into what it is today.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Gallery -->
+    <section class="gallery-good-women">
+        <h2>Gallery</h2>
         <div class="gallery-grid">
-            <div class="gallery-item"><img src="image/20230820_130204.jpg" alt="Image 1"></div>
-            <div class="gallery-item"><img src="image/20230820_130204.jpg" alt="Image 2"></div>
-            <div class="gallery-item"><img src="image/20230820_130204.jpg" alt="Image 3"></div>
-            <div class="gallery-item"><img src="image/20230820_130204.jpg" alt="Image 4"></div>
-            <div class="gallery-item"><img src="image/20230820_130204.jpg" alt="Image 4"></div>
-            <div class="gallery-item"><img src="image/20230820_130204.jpg" alt="Image 4"></div>
+            <div class="gallery-item"><img src="goodwomenimg/gwimg1.jpg" alt="Gallery Image 1"></div>
+            <div class="gallery-item"><img src="goodwomenimg/gwimg2.jpg" alt="Gallery Image 2"></div>
+            <div class="gallery-item"><img src="goodwomenimg/gwimg4.jpg" alt="Gallery Image 3"></div>
+            <div class="gallery-item"><img src="goodwomenimg/gwimg3.jpg" alt="Gallery Image 4"></div>
             <!-- Add more images as needed -->
         </div>
     </section>
-    
 
-    <section class="children-activities">
-        <div class="activities-header">
-            <h2>Our Activities</h2>
-            <p>Engaging and Fun-filled Activities for Children</p>
-        </div>
-        <div class="activities-content">
-            <div class="activity">
-                <h3>Sunday School</h3>
-                <p>Join us every Sunday morning for an exciting and educational Sunday School.</p>
-            </div>
-            <div class="activity">
-                <h3>Weekly Bible Study</h3>
-                <p>Every Wednesday evening, we dive deep into the Bible with interactive study sessions.</p>
-            </div>
-            <div class="activity">
-                <h3>Monthly Outreach</h3>
-                <p>We engage in community outreach programs to share love and kindness with others.</p>
-            </div>
-            <!-- Add more activities as needed -->
-        </div>
-    </section>
-    
-
-    <section class="upcoming-events">
-        <div class="events-header">
-            <h2>Upcoming Events</h2>
-            <p>Stay tuned for our exciting upcoming events</p>
-        </div>
+    <!-- Upcoming Events -->
+    <section class="upcoming-events-good-women">
+        <h2>Upcoming Events</h2>
         <div class="events-slider">
             <div class="event-card">
-                <img src="image/sesame pl.webp" alt="Event 1">
+                <img src="path/to/event1.jpg" alt="Event 1">
                 <div class="event-info">
-                    <h3>Escortion to Sesample Place</h3>
+                    <h3>Event Title 1</h3>
                     <p class="event-date">Date: July 10, 2024</p>
                     <p class="event-description">Join us for a fun-filled day with activities, food, and more.</p>
                     <a href="#" class="event-button">Learn More</a>
                 </div>
             </div>
             <div class="event-card">
-                <img src="image/universal-childrens-day.jpg" alt="Event 2">
+                <img src="path/to/event2.jpg" alt="Event 2">
                 <div class="event-info">
-                    <h3>Annual Children's Day 2024</h3>
+                    <h3>Event Title 2</h3>
                     <p class="event-date">Date: August 5, 2024</p>
                     <p class="event-description">Don't miss our special service with guest speakers and music.</p>
                     <a href="#" class="event-button">Learn More</a>
@@ -124,8 +115,33 @@
             <!-- Add more event cards as needed -->
         </div>
     </section>
-     <!-- Footer -->
-     <footer id="footer">
+
+    <!-- Join Form -->
+    <section class="join-good-women">
+        <h2>Join Good Women</h2>
+        <p>If you are interested in joining the Good Women group, please fill out the form below. We look forward to welcoming you!</p>
+        <form class="join-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+
+            <label for="message">Few words as to why you want to be a part of this community:</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+            <button type="submit">Join Now</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
         <div class="footer-row">
             <div class="footer-left">
                 <h1>About Us</h1>
@@ -149,6 +165,6 @@
             <p>© 2023 Company Name. All rights reserved.</p>
         </div>
     </footer>
-    
+
 </body>
 </html>

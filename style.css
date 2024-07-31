@@ -2,7 +2,6 @@
 body{
     font-family: Poppins;
     margin: 0;
-    color: #eee;
 }
 svg{
     width: 25px;
@@ -74,6 +73,7 @@ nav {
 nav a{
     text-decoration: none;
     color: white;
+    padding:10px ;
 
 }
 header a{
@@ -790,7 +790,7 @@ button[type="submit"]:hover {
 
 .footer-left .fa, .footer-right .fa {
     font-size: 20px;
-    color: #009688;
+    color: #FFDDC1;
     margin: 10px;
 }
 
@@ -812,15 +812,23 @@ button[type="submit"]:hover {
     width: 40px;
     font-size: 20px;
     line-height: 40px;
-    border: 1px solid #009688;
+    border: 1px solid #FFDDC1;
     margin: 40px 5px 0;
-    color: #009688;
+    color: #FFDDC1;
     cursor: pointer;
+
     transition: .5s;
 }
 
+.footer-right ul{
+    list-style-type: none;
+}
+.footer-right a{
+    color: white;
+    
+}
 .social-links .fa:hover {
-    background: #009688;
+    background: #FFDDC1;
     color: #fff;
     transform: translateX(-7px);
 }
